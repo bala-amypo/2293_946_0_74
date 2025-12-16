@@ -19,5 +19,23 @@ public class Student {
         return cgpa;
     }
 
-    public void setId
+    public void setId(int id){
+        this.id=id;
+    }
+    public void setName(String name){
+        this.name=name;
+    }
+    public void setEmail(String email){
+        this.email=email;
+    }
+    public void setCgpa(float cgpa){
+        this.cgpa=cgpa;
+    }
+
+    public Student(int id,String name,String email,float cgpa){
+        this.id=id;
+        thi
+
+    }
+
 }
