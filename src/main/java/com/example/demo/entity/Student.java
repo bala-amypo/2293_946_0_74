@@ -1,5 +1,12 @@
 package com.example.demo.entity;
 
+import.jakarta.persistence.Entity;
+import.jakarta.persistence.E
+import.jakarta.persistence.Entity
+
+
+@Entity
+
 public class Student {
     private int id;
     private String name;
@@ -34,7 +41,13 @@ public class Student {
 
     public Student(int id,String name,String email,float cgpa){
         this.id=id;
-        thi
+        this.name=name;
+        this.email=email;
+        this.cgpa=cgpa;
+
+    }
+
+    public Student(){
 
     }
 
