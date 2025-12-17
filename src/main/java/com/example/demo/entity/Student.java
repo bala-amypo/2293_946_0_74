@@ -6,6 +6,7 @@ import jakarta.persistence.*;
 @Entity
 
 public class Student {
+    @id
     private int id;
     private String name;
     private String email;
