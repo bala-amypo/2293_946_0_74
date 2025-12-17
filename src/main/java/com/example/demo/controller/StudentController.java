@@ -18,8 +18,4 @@ public class StudentController {
     public Student createData(@RequestBody Student stu){
         return ser.createData(stu);
     }
-
-
-
-    
 }
