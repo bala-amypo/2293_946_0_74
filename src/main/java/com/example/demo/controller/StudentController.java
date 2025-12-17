@@ -18,6 +18,7 @@ public class StudentController {
     public Student createData(@RequestBody Student stu){
         return ser.createData(stu);
     }
-    @GetMapping("/fetch")
+    @GetMapping("/fetch_data")
+    public List<Student>   
 }
 }
