@@ -4,12 +4,15 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import com.example.demo.entity.Student;
 import com.example.demo.repository.StudentRepository;
+import com.example.demo.service.StudentServices;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 @Service
-public class ServiceImplementation implements StudentService {
+public class ServiceImplementation implements StudentServices {
 
     @Autowired
     StudentRepository repo;
@@ -21,6 +24,7 @@ public class ServiceImplementation implements StudentService {
 
     @Override
     public List<Student> fetchRecord() {
-        return repo.findAll();  
+        return repo.findAll();
     }
+
 }
