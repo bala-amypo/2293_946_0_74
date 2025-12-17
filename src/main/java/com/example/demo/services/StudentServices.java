@@ -5,6 +5,7 @@ import com.example.demo.entity.Student;
 
 public interface StudentServices{
     
-    public Student createData(Student stu);
-    public List<Student> fetchRecord();
+    Student createData(Student stu);
+    List<Student> fetchRecord();
+    
 }
