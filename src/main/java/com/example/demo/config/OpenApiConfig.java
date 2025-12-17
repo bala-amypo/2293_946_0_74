@@ -14,7 +14,7 @@ public class OpenApiConfig {
         return new OpenAPI()
                 // You need to change the port as per your server
                 .servers(List.of(
-                        new Server().url("")
+                        new Server().url("demo/src/main/java/com/example/demo/services/impl/ServiceImplementation.java")
                 ));
         }
 }
