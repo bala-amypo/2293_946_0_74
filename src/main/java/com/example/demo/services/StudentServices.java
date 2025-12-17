@@ -10,7 +10,7 @@ import com.example.demo.repository.StudentRepository;
 public class StudentService {
 
     @Autowired
-    private StudentRepository repo;
+     StudentRepository repo;
 
     public Student createData(Student stu) {
         return repo.save(stu);

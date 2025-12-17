@@ -23,4 +23,3 @@ public class StudentController {
 
     
 }
-studdent controller.java
